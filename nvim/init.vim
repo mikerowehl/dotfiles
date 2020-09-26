@@ -5,14 +5,13 @@ Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'lifepillar/vim-solarized8'
 
 call plug#end()
 
 set background=dark
-colorscheme gruvbox
+colorscheme onedark
 set shiftwidth=4
 set tabstop=4
 set termguicolors
