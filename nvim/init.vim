@@ -5,6 +5,9 @@ Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+
 Plug 'joshdick/onedark.vim'
 Plug 'morhetz/gruvbox'
 
