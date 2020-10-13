@@ -1,5 +1,5 @@
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:~/bin:/usr/local/opt/libpq/bin:~/projects/go/bin
-export PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
+export PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%~%f%b %# '
 
 alias vi=nvim
 alias vim=nvim
