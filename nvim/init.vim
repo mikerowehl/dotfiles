@@ -20,4 +20,10 @@ set tabstop=4
 set termguicolors
 set number relativenumber
 
+ab :pushpin: 📌
+ab :smile: 😀
+ab :poo: 💩
+ab :heart: ❤️
+ab :thumbsup: 👍
+
 runtime coc.vim
