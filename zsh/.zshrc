@@ -27,3 +27,5 @@ zstyle ':vcs_info:*' check-for-changes true
 # color settings
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export CLICOLOR=1
+
+export GOPATH=$HOME/projects/go
