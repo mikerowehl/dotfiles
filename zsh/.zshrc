@@ -7,7 +7,6 @@ alias jpp='python -mjson.tool'
 
 export EDITOR=nvim
 
-setopt SHARE_HISTORY
 setopt APPEND_HISTORY
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
