@@ -27,4 +27,7 @@ zstyle ':vcs_info:*' check-for-changes true
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export CLICOLOR=1
 
+# bind history search to ctrl-r
+bindkey '^R' history-incremental-search-backward
+
 export GOPATH=$HOME/projects/go
