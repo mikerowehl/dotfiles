@@ -13,6 +13,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'elixir-editors/vim-elixir'
+
 call plug#end()
 
 set background=dark
