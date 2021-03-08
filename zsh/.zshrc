@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH:~/bin:/usr/local/opt/libpq/bin:~/projects/go/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH:~/bin:/usr/local/opt/libpq/bin:~/projects/go/bin:~/local/nvim/bin
 export PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{242}%~%f%b %# '
 
 alias vi=nvim
@@ -31,3 +31,6 @@ export CLICOLOR=1
 bindkey '^R' history-incremental-search-backward
 
 export GOPATH=$HOME/projects/go
+
+# Include homebrew in path
+eval "$(/opt/homebrew/bin/brew shellenv)"
