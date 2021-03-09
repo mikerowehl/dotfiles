@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH:~/bin:/usr/local/opt/libpq/bin:~/projects/go/bin:~/local/nvim/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH:~/bin:/usr/local/opt/libpq/bin:~/projects/go/bin:~/local/nvim/bin:/opt/homebrew/opt/libpq/bin
 export PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{242}%~%f%b %# '
 
 alias vi=nvim
