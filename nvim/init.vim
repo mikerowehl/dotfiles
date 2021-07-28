@@ -38,6 +38,9 @@ set number relativenumber
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+let mapleader=","
+nnoremap <silent> <Leader>r :Rg<CR>
+
 ab :pushpin: 📌
 ab :smile: 😀
 ab :poo: 💩

@@ -34,3 +34,7 @@ export GOPATH=$HOME/projects/go
 
 # Include homebrew in path
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Setup fzf to use ripgrep
+export FZF_DEFAULT_COMMAND='rg --files'
+export FZF_DEFAULT_OPTS='-m --height 50% --border'
