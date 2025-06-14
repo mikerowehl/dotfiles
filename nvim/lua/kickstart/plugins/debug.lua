@@ -21,6 +21,7 @@ return {
 		-- "williamboman/mason.nvim",
 		-- "jay-babu/mason-nvim-dap.nvim",
 
+		"theHamsta/nvim-dap-virtual-text",
 		-- Add your own debuggers here
 		"leoluz/nvim-dap-go",
 	},
@@ -103,6 +104,8 @@ return {
 		--   local hl = (type == 'Stopped') and 'DapStop' or 'DapBreak'
 		--   vim.fn.sign_define(tp, { text = icon, texthl = hl, numhl = hl })
 		-- end
+
+		require("nvim-dap-virtual-text").setup()
 
 		-- Install golang specific config
 		require("dap-go").setup({
