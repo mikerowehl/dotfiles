@@ -17,7 +17,7 @@ function __build_prompt {
         PS1+="${RED}${RESET} " # Add red if exit code non 0
     fi
     # this is the default prompt for 
-    PS1+="${BOLD_GRAY}\w ${RESET}\$ "
+    PS1+="${BOLD_GRAY}\w $(__git_ps1 "(%s) ")${RESET}\$ "
 }
 
 PROMPT_COMMAND="__build_prompt"
