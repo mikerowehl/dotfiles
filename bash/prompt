@@ -6,6 +6,7 @@ function __build_prompt {
     local RED='\[\e[0;31m\]'
     local GREEN='\[\e[0;32m\]'
     local BOLD_GRAY='\[\e[1;30m\]'
+    local YELLOW='\[\e[0;33m\]'
     # longer list of codes here: https://unix.stackexchange.com/a/124408
     
     # start with an empty PS1
@@ -17,7 +18,7 @@ function __build_prompt {
         PS1+="${RED}${RESET} " # Add red if exit code non 0
     fi
     # this is the default prompt for 
-    PS1+="${BOLD_GRAY}\w $(__git_ps1 "(%s) ")${RESET}\$ "
+    PS1+="\w ${YELLOW}$(__git_ps1 "(%s) ")${RESET}\$ "
 }
 
 PROMPT_COMMAND="__build_prompt"
