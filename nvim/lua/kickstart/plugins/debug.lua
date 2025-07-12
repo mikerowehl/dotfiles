@@ -114,6 +114,15 @@ return {
 				-- See https://github.com/leoluz/nvim-dap-go/blob/main/README.md#configuring
 				detached = vim.fn.has("win32") == 0,
 			},
+			dap_configurations = {
+				{
+					type = "go",
+					name = "Attach remote",
+					mode = "remote",
+					request = "attach",
+					port = 23456,
+				},
+			},
 		})
 	end,
 }
