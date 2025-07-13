@@ -75,7 +75,7 @@ return {
 		local widgets = require("dap.ui.widgets")
 		local dap_ui = function(widget)
 			return function()
-				widgets.centered_float(widget)
+				widgets.sidebar(widget, {}, "30 split").toggle()
 			end
 		end
 
