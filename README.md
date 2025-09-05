@@ -9,8 +9,6 @@ I'll check out this repo somewhere in my home directory, and just symlink the di
 * cd ~/.config
 * ln -s ~/dotfiles/nvim
 * ln -s ~/dotfiles/tmux
+* echo 'source ~/dotfiles/bash/prompt' >> ~/.bashrc
 
-The bash directory has a few snippets I don't use on all the systems anyway.
-So if needed I'll just source them from the checkout in my shell startup files. Trying to manage my full set
-of shell startup files, which want to call out to all kinds of other system included resources like system
-included expansion hooks and all kinds of operating system specific areas, was too much of a pain.
+Notes about the bash stuff in the bash directory.
