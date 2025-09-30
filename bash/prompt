@@ -21,4 +21,5 @@ function __build_prompt {
     PS1+="\w ${YELLOW}$(__git_ps1 "(%s) ")${RESET}\$ "
 }
 
+export GIT_PS1_SHOWDIRTYSTATE=true
 PROMPT_COMMAND="__build_prompt"
