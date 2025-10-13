@@ -12,3 +12,9 @@ I'll check out this repo somewhere in my home directory, and just symlink the di
 * echo 'source ~/dotfiles/bash/prompt' >> ~/.bashrc
 
 Notes about the bash stuff in the bash directory.
+
+Rbenv setup using the git clone method:
+
+* git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+* ~/.rbenv/bin/rbenv init
+* git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
