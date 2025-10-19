@@ -636,6 +636,23 @@ require("lazy").setup({
 							vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufnr = event.buf }))
 						end, "[T]oggle Inlay [H]ints")
 					end
+
+					local function organize_imports()
+						vim.lsp.buf.code_action({
+							context = {
+								only = { "source.organizeImports" },
+								diagnostics = vim.diagnostic.get(),
+							},
+							apply = true,
+						})
+					end
+
+					vim.api.nvim_create_user_command(
+						"OrganizeImports",
+						organize_imports,
+						{ desc = "Organize Go imports" }
+					)
+					map("<leader>oi", organize_imports, "[O]ix [I]mports")
 				end,
 			})
 
