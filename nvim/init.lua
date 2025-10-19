@@ -652,7 +652,7 @@ require("lazy").setup({
 						organize_imports,
 						{ desc = "Organize Go imports" }
 					)
-					map("<leader>oi", organize_imports, "[O]ix [I]mports")
+					map("<leader>oi", organize_imports, "[O]rganize [I]mports")
 				end,
 			})
 
