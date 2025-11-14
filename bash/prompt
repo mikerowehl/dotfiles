@@ -22,4 +22,5 @@ function __build_prompt {
 }
 
 export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
 PROMPT_COMMAND="__build_prompt"
