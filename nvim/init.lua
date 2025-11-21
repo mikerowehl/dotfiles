@@ -715,6 +715,8 @@ require("lazy").setup({
 				-- ts_ls = {},
 				--
 
+				solidity_ls = {},
+
 				lua_ls = {
 					-- cmd = { ... },
 					-- filetypes = { ... },
@@ -747,6 +749,7 @@ require("lazy").setup({
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
 				"stylua", -- Used to format Lua code
+				-- Note: vscode-solidity-server not available in Mason, install via: npm install -g vscode-solidity-server
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
