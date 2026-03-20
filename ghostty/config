@@ -19,3 +19,5 @@ keybind=ctrl+space>four=goto_tab:4
 keybind=ctrl+space>five=goto_tab:5
 keybind=ctrl+space>six=goto_tab:6
 # keybind=ctrl+space>o=toggle_tab_overview
+
+clipboard-paste-protection=false
