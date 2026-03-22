@@ -21,3 +21,5 @@ keybind=ctrl+space>six=goto_tab:6
 # keybind=ctrl+space>o=toggle_tab_overview
 
 clipboard-paste-protection=false
+
+macos-titlebar-style=tabs
